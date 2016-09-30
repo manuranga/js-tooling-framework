@@ -68,8 +68,8 @@ var Dialogs = (function (dialogs) {
                $(anchor.attr('href')).remove();
                 $(e.currentTarget).parent().remove();
                  var removedId = anchor[0].attributes[0].value;
-                 var divToRemove = document.getElementById(removedId);
-                  divToRemove.parentNode.removeChild(divToRemove);
+                // var divToRemove = document.getElementById(removedId);
+                 // divToRemove.parentNode.removeChild(divToRemove);
 
 
            	},
